@@ -1,0 +1,8 @@
+BagIt-Profile-Identifier: https://w3id.org/ro/bagit/profile
+Source-Organization: Whole Tale
+Contact-Name: Joe Smith
+Contact-Email: help@wholetale.org
+Contact-Phone: +1-111-111-111
+External-Description: This is an example of a bagged Tale
+Bagging-Date: 01-17-2019
+Bag-Size: 1 kB
