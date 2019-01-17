@@ -1,0 +1,88 @@
+{
+  "@id": "tale.jsonld",
+  "@context": "http://schema.org",
+  "@type": "CreativeWork",
+  "name": "Subsistence Harvest of Salmon from Glennallen Subdistrict, Alaska",
+  "description": "Summary statistics of the Salmon harvest in Glennallen, Alaska",
+  "category": "science",
+  "identifier": "5c32904db228190001444b12",
+  "version": "3",
+  "image": "http://yt-project.org/img/analysis.jpg",
+  "Author":
+    {
+      "@id": "https://orcid.org/0000-0002-1756-2128",
+      "@type": "Person",
+      "name": "Thomas Thelen",
+      "email": "thelen@nceas.ucsb.edu",
+      "url": "https://orcid.org/0000-0002-1756-2128"
+    },
+ 
+  "Datasets": [
+    {
+      "@id": "https://doi.org/10.5063/F11C1V42",
+      "@type": "Dataset",
+      "name": "Alaska Department of Fish and Game, Division of Subsistence. 2018. Subsistence Harvest of Salmon from Glennallen Subdistrict, Alaska, 1988-2016.",
+      "identifier" : "doi:10.5063/F11C1V42",
+      "publisher" :
+        {
+          "@id": "https://www.dataone.org/",
+          "@type": "Organization",
+          "legalName": "DataONE",
+          "Description": "A federated data network allowing access to science data"
+        }
+    }
+  ],
+ 
+  "system_entrypoint": {
+    "@id": "system_entrypoint.sh",
+    "@type": "EntryPoint",
+          "actionApplication":
+          {
+            "@type": "SoftwareApplication",
+            "name": "system_entrypoint.sh",
+            "applicationCategory": "Academic"
+          }
+  },
+ 
+  "user_entrypoint": {
+    "@id": "user_entrypoint.sh",
+    "@type": "EntryPoint",
+          "actionApplication":
+          {
+            "@type": "SoftwareApplication",
+            "name": "user_entrypoint.sh",
+            "applicationCategory": "Academic"
+          }
+  },
+ 
+  "environment": {
+    "@id": "Dockerfile",
+    "@type": "CreativeWork",
+    "name": "Dockerfile",
+    "description": "The Dockerfile that can be used to re-create the compute environment.",
+    "image": "https://www.rstudio.com/wp-content/uploads/2014/06/RStudio-Ball.png"
+  },
+ 
+  "hasPart": [
+  {
+    "@id": "workspace/data/Glennallen_Harvest.csv",
+    "@type": "CreativeWork",
+    "name": "Glennallen_Harvest.csv"
+  },
+  {
+    "@id": "workspace/data/Glennallen District By Gear and Permit - All Years.csv",
+    "@type": "CreativeWork",
+    "name": "Glennallen District By Gear and Permit - All Years.csv"
+  },
+  {
+    "@id": "workspace/data/Glennallen District Gear Permit ANS District - 2011-2015.csv",
+    "@type": "CreativeWork",
+    "name": "Glennallen District Gear Permit ANS District - 2011-2015.csv"
+  },
+  {
+    "@id": "workspace/code/Glennallen_Subsistence.Rmd",
+    "@type": "CreativeWork",
+    "name": "Glennallen_Subsistence.Rmd"
+  }
+  ]
+}
