@@ -3,6 +3,7 @@
 This repository is for the documentation and design about the Tale's export structure and metadata format. There are many different specifications and custom ways to accomplish each; this document focuses on JSON-LD as the Tale metadata format and BagIt-RO as the export standard. 
 
 [metadata_formats](./metadata_formats): contains examples of Tales' information serialized in different ways
+
 [export_formats](./export_formats): contains examples of Tales exported with different specifications
 
 ***
@@ -12,13 +13,18 @@ When exporting and publishing a Tale, enough information needs to be saved such 
 
 ### Strengths
 Tightly structured representation
+
 Opens doors for linked data
+
 Gives the ability to use established vocabularies
+
 Compatible with file structure formats such as bagit-ro
 
 ### Weaknesses
 Difficult/time consuming to maintain
+
 Whole Tale doesn't have a persistent URI space for commons objects (Tale, Author, Environment, etc)
+
 There (currently) aren't any applications for using a Tale's JSON-LD representation
 
 ### Schema.org
@@ -40,6 +46,7 @@ Many of shortcomings in schema.org can be addressed by introducing the [Research
 
 #### Examples: 
 An example of a Tale with local data can be found in [metadata_formats/ro_local](./metadata_formats/ro_local).
+
 An example of a Tale with external data can be found in [metadata_formats/ro_external](./metadata_formats/ro_external).
 
 ***
@@ -48,20 +55,32 @@ When a Tale is exported to disk, we have a number of ways to structure the data.
 
 ### Strengths
 Standards-based
+
 Gives us an “archival” and “metadata” face
+
 It’s just a zip file
 
 ### Weaknesses
 For export, the researcher doesn’t care that it’s a BagIt
+
 Complicated for the researcher to understand, if they look at it
+
 Standard but not familiar
+
 Lots of features we may not care about
+
 Can’t use fetch because, for example, the URI could be a Globus identifier.
+
 pid-mapping and fetch.txt do not really cover our external data needs.
+
 WT would need to implement PIDs
+
 For the average user “data” (payload) will be as confusing as home/jovyan/work/data
+
 Doesn’t reflect the actual Tale structure. We’ve made a big deal about the UI and in-container structures matching, but for some reason it’s OK for the export to be something totally different.
+
 BagIt is for archive and exchange – we won’t be archiving.
+
 We’re basically using it for download
 
 ### BagIt
@@ -76,8 +95,9 @@ The BagIt model can be expanded by considering the work done by the Research Obj
 #### Differences from BagIt
 1. Addition of the `metadata` and sub-folders
 
-#### Example:
+#### Examples:
 An example of a Tale with local data can be found in [export_formats/ro_local](./export_formats/ro_local)
+
 An example of a Tale with external data can be found in [export_formats/ro_external](./export_formats/ro_external)
 
 ***
