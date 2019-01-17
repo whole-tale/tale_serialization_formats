@@ -2,9 +2,9 @@
 
 This repository is for the documentation and design about the Tale's export structure and metadata format. There are many different specifications and custom ways to accomplish each; this document focuses on JSON-LD as the Tale metadata format and BagIt-RO as the export standard. 
 
-[metadata_formats](./metadata_formats): contains examples of Tales' information serialized in different ways
+[metadata_formats](https://github.com/whole-tale/tale_serialization_formats/tree/master/metadata_formats): contains examples of Tales' information serialized in different ways
 
-[export_formats](./export_formats): contains examples of Tales exported with different specifications
+[export_formats](https://github.com/whole-tale/tale_serialization_formats/tree/master/export_formats): contains examples of Tales exported with different specifications
 
 ***
 # Metadata Format
@@ -32,7 +32,7 @@ The schema.org vocabulary is standard for describing elements/objects on webpage
 
 
 #### Example: 
-The example of a Tale that was serialized with schema.org can be found in [metadata_formats/schema_org](./metadata_formats/schema_org).
+The example of a Tale that was serialized with schema.org can be found in [metadata_formats/schema_org](https://github.com/whole-tale/tale_serialization_formats/tree/master/metadata_formats/schema_org).
 
 
 ### Research Object Bundle 1.0 + Schema.org
@@ -45,9 +45,7 @@ Many of shortcomings in schema.org can be addressed by introducing the [Research
 4. Addition of `aggregates` (Files are now aggregated by the metadata document)
 
 #### Examples: 
-An example of a Tale with local data can be found in [metadata_formats/ro_local](./metadata_formats/ro_local).
-
-An example of a Tale with external data can be found in [metadata_formats/ro_external](./metadata_formats/ro_external).
+RO examples can be found in [metadata_formats/ro](https://github.com/whole-tale/tale_serialization_formats/tree/master/metadata_formats/schema_org)
 
 ***
 # Export Format:
@@ -86,7 +84,7 @@ We’re basically using it for download
 ### BagIt
 The BagIt specification can be used as a basic archival format for the Tale. The top level directory has the traditional tag files, and the Tale data goes inside the payload directory.
 
-An example of a Tale that has been exported into a bag with local data can be found in [export_formats/bagit_local](./export_formats/bagit_local)
+An example of a Tale that has been exported into a bag with local data can be found in [export_formats/bagit_local](https://github.com/whole-tale/tale_serialization_formats/tree/master/export_formats/bagit_local)
 
 
 ### Bagit-RO
@@ -96,9 +94,9 @@ The BagIt model can be expanded by considering the work done by the Research Obj
 1. Addition of the `metadata` and sub-folders
 
 #### Examples:
-An example of a Tale with local data can be found in [export_formats/ro_local](./export_formats/ro_local)
+An example of a Tale with local data can be found in [export_formats/ro_local](https://github.com/whole-tale/tale_serialization_formats/tree/master/export_formats/ro_local)
 
-An example of a Tale with external data can be found in [export_formats/ro_external](./export_formats/ro_external)
+An example of a Tale with external data can be found in [export_formats/ro_external](https://github.com/whole-tale/tale_serialization_formats/tree/master/export_formats/ro_external)
 
 ***
 # Relation to Publishing
