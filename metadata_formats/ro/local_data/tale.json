@@ -1,0 +1,112 @@
+{ 
+  "@context": ["https://w3id.org/bundle/context", {}"schema": "http://schema.org/"}],
+  "@id": "LIGO Tutorial",
+  "createdOn": "2019-01-17",
+  "createdBy": {
+    "@id": "kowalikk@illinois.edu",
+    "@type": "schema:Person",
+    "schema:givenName": "Kacper",
+    "schema:familyName": "Kowalik",
+    "schema:email": "kowalikk@illinois.edu"
+  },
+  "schema:name": "LIGO Tutorial",
+  "schema:description": "LIGO Detected Gravitational Waves from Black Holes",
+  "schema:category": "science",
+  "schema:identifier": "59f0b91584b7920001b46f2e",
+  "schema:version": "3",
+  "schema:image": "http://yt-project.org/img/analysis.jpg",
+  
+  "aggregates": [
+  {
+    "uri":"../data/workspace/BBH_events_v3.json",
+    "@type":"schema:CreativeWork", 
+    "filename":"BBH_events_v3.json" 
+  },
+  {
+    "uri":"../data/workspace/H-H1_LOSC_4_V2-1135136334-32.hdf5",
+    "@type":"schema:CreativeWork", 
+    "filename":"H-H1_LOSC_4_V2-1135136334-32.hdf5" 
+  },
+  {
+    "uri":"data/workspace/L-L1_LOSC_4_V2-1135136334-32.hdf5",
+    "@type":"schema:CreativeWork", 
+    "filename":"L-L1_LOSC_4_V2-1135136334-32.hdf5" 
+  },
+  {
+    "uri":"data/workspace/H-H1_LOSC_4_V2-1128678884-32.hdf5",
+    "@type":"schema:CreativeWork", 
+    "filename":"H-H1_LOSC_4_V2-1128678884-32.hdf5" 
+  },
+  {
+    "uri":"data/workspace/GW150914_4_template.hdf5",
+    "@type":"schema:CreativeWork", 
+    "filename":"GW150914_4_template.hdf5" 
+  },
+  {
+    "uri":"data/workspace/L-L1_LOSC_4_V2-1128678884-32.hdf5",
+    "@type":"schema:CreativeWork", 
+    "filename":"L-L1_LOSC_4_V2-1128678884-32.hdf5" 
+  },
+  {
+    "uri":"data/workspace/GW151226_4_template.hdf5",
+    "@type":"schema:CreativeWork", 
+    "filename":"GW151226_4_template.hdf5" 
+  },
+  {
+    "uri":"data/workspace/LVT151012_4_template.hdf5",
+    "@type":"schema:CreativeWork", 
+    "filename":"LVT151012_4_template.hdf5" 
+  },
+  {
+    "uri":"data/workspace/readligo.py",
+    "@type":"schema:CreativeWork", 
+    "filename":"readligo.py" 
+  },
+  {
+    "uri":"data/workspace/L-L1_LOSC_4_V2-1126259446-32.hdf5",
+    "@type":"schema:CreativeWork", 
+    "filename":"L-L1_LOSC_4_V2-1126259446-32.hdf5" 
+  },
+  {
+    "uri":"data/workspace/recipe.txt",
+    "@type":"schema:CreativeWork", 
+    "filename":"recipe.txt" 
+  },
+  {
+    "uri":"data/workspace/H-H1_LOSC_4_V2-1126259446-32.hdf5",
+    "@type":"schema:CreativeWork", 
+    "filename":"H-H1_LOSC_4_V2-1126259446-32.hdf5" 
+  },
+  {
+    "uri":"data/workspace/LOSC_Event_tutorial.ipynb",
+    "@type":"schema:CreativeWork", 
+    "filename":"LOSC_Event_tutorial.ipynb" 
+  },
+  {
+    "uri":"data/workspace/GW170104_4_template.hdf5",
+    "@type":"schema:CreativeWork", 
+    "filename":"GW170104_4_template.hdf5" 
+  },
+  {
+    "uri":"data/workspace/archive.tar.gz",
+    "@type":"schema:CreativeWork", 
+    "filename":"archive.tar.gz" ,
+    "schema:image": "https://raw.githubusercontent.com/whole-tale/jupyter-base/master/squarelogo-greytext-orangebody-greymoons.png"
+  },
+  {
+    "uri":"data/workspace/L-L1_LOSC_4_V1-1167559920-32.hdf5",
+    "@type":"schema:CreativeWork", 
+    "filename":"L-L1_LOSC_4_V1-1167559920-32.hdf5" 
+  },
+  {
+    "uri":"data/workspace/H-H1_LOSC_4_V1-1167559920-32.hdf5",
+    "@type":"schema:CreativeWork", 
+    "filename":"H-H1_LOSC_4_V1-1167559920-32.hdf5" 
+  },
+  {
+    "uri":"../metadata/manifest.jsonld",
+    "@type":"schema:CreativeWork", 
+    "filename":"manifest.jsonld" 
+  }
+]
+}
