@@ -1,8 +1,8 @@
 # Overview
 
-This repository is for the documentation and design about the Tale's export structure and metadata format. There are many different specifications and custom ways to accomplish each; this document focuses on JSON-LD as the Tale metadata format and BagIt-RO as the export standard. 
+This repository is for the documentation and design about the Tale's export structure and metadata format. There are many different specifications and custom ways to accomplish each; this document focuses on RDF in JSON-LD as the Tale metadata format and BagIt-RO as the export standard. 
 
-[metadata_formats](https://github.com/whole-tale/tale_serialization_formats/tree/master/metadata_formats): contains examples of Tales' information serialized in different ways
+[metadata_formats](https://github.com/whole-tale/tale_serialization_formats/tree/master/metadata_formats): contains examples of the different metadata formats
 
 [export_formats](https://github.com/whole-tale/tale_serialization_formats/tree/master/export_formats): contains examples of Tales exported with different specifications
 
@@ -20,6 +20,9 @@ Gives the ability to use established vocabularies
 
 Compatible with file structure formats such as bagit-ro
 
+Opens potential for tighter integration with publishers
+
+
 ### Weaknesses
 Difficult/time consuming to maintain
 
@@ -30,9 +33,11 @@ There (currently) aren't any applications for using a Tale's JSON-LD representat
 ### Schema.org
 The schema.org vocabulary is standard for describing elements/objects on webpages. It provides a basic set of terms for common web elements such as `datasets`, `author`, `organization`, etc... Although the vocabulary spans a number of domains, it fails to provide a concrete way of aggregating resources and fails to provide a vocabulary to describe features of software&data (eg file paths). Some of the definitions (see [Entrypoint](https://schema.org/EntryPoint)) are also geared more towards web applications than raw data.
 
+Instead of using _only_ schema.org, it's more convenient to use it among other vocabularies, shown in the RO Bundle section. 
+
 
 #### Example: 
-The example of a Tale that was serialized with schema.org can be found in [metadata_formats/schema_org](https://github.com/whole-tale/tale_serialization_formats/tree/master/metadata_formats/schema_org).
+A Tale described in schema.org can be found in [metadata_formats/schema_org](https://github.com/whole-tale/tale_serialization_formats/tree/master/metadata_formats/schema_org)
 
 
 ### Research Object Bundle 1.0 + Schema.org
@@ -109,10 +114,11 @@ The export format and metadata format are potentially linked to publishing the f
 
 ### Data Duplication & Transcription Between ORE Files
 
-In order to utilize the publishers' existing metadata system, some of the fields from the Tale's ORE will be transcribed into the publishers' ORE. Because the original Tale metadata document is present in the package, any data that is transcribed, is also duplicated.
+In order to utilize the publisher's existing metadata system, some of the fields from the Tale's ORE will be transcribed into the publishers' ORE. Because the original Tale metadata document is present in the package, any data that is transcribed, is also duplicated. It was confirmed that adding additional namespaces to the ORE shouldn't be a problem.
 
 
 ##### Transcriptions (Tale ORE -> Publisher ORE)
     1. @uri will need to be mapped from a file path to the URI that the publisher assigned
     2. Provenance statements should be transcribed from the metadata document to the DataONE ORE
+    
 
