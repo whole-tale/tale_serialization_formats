@@ -15,5 +15,6 @@ This is the same LIGO Tale as the one in `local_data`, but it is assumed that th
 ### Other Notes
 
 There are a number of additional properties that can be added to the resource maps however, aren't essential for Tale ingestion. Examples include adding
-1. `mediatype` to each file
-2. `createdBy`
+1. `mediatype` to each aggregated file
+2. `createdBy` to each aggregated file
+3. Annotations about each file
