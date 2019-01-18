@@ -4,3 +4,5 @@ The takeaway points are that
 1. The Tale and data files are `CreativeWorks`
 2. `EntryPoint` is probably not the right vocabulary word
 3. Data files are aggregated with `hasPart`
+
+For an overview of the structure, visit http://tinyurl.com/yba9azqd and click the `Visualize` tab.
