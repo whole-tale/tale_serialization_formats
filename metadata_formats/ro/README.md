@@ -10,7 +10,7 @@ This is an example of a Tale that has all of the data within Whole Tale. This da
 This is the same LIGO Tale as the one in `local_data`, but it is assumed that the data was never downloaded into Whole Tale. To compensate for this, the remote files are described in the file aggregation portion in `tale.json`.
 
 
-![linked_data](images/ld_visual.jpg)
+![linked_data](https://github.com/whole-tale/tale_serialization_formats/blob/master/metadata_formats/ro/images/ld_visual.png)
 
 ### Other Notes
 
