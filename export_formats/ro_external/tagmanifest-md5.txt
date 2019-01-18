@@ -1,3 +1,3 @@
-d41d8cd98f00b204e9800998ecf8427e  metadata//annotations/annotations.jsonld
-d41d8cd98f00b204e9800998ecf8427e  metadata//provenance/results.prov.jsonld
-d41d8cd98f00b204e9800998ecf8427e  metadata//manifest.json
+d41d8cd98f00b204e9800998ecf8427e  metadata/annotations/annotations.jsonld
+d41d8cd98f00b204e9800998ecf8427e  metadata/provenance/results.prov.jsonld
+d41d8cd98f00b204e9800998ecf8427e  metadata/manifest.json
