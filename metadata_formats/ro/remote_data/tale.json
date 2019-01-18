@@ -14,6 +14,12 @@
     "schema:familyName": "Kowalik",
     "schema:email": "kowalikk@illinois.edu"
   },
+  "name": "Subsistence Harvest of Salmon from Glennallen Subdistrict, Alaska",
+  "description": "Summary statistics of the Salmon harvest in Glennallen, Alaska",
+  "category": "science",
+  "identifier": "5c32904db228190001444b12",
+  "version": "3",
+  "image": "http://yt-project.org/img/analysis.jpg",
   "describes": {
     "@id": "Aggregation",
     "@type": "Aggregation",
