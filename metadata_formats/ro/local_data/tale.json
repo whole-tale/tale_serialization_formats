@@ -1,5 +1,5 @@
 { 
-  "@context": ["https://w3id.org/bundle/context", {}"schema": "http://schema.org/"}],
+  "@context": ["https://w3id.org/bundle/context", {"schema": "http://schema.org/"}],
   "@id": "LIGO Tutorial",
   "createdOn": "2019-01-17",
   "createdBy": {
