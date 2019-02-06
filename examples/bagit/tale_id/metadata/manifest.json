@@ -1,0 +1,80 @@
+{ 
+  "@context": [
+    "https://w3id.org/bundle/context", 
+    {
+       "schema": "http://schema.org/"
+    },
+    {
+       "parent_dataset": {"@type": "@id"}
+    }
+  ],
+  "@id": "https://data.wholetale.org/api/v1/tale/5ad4eb52f4b80b00018d92e1",
+  "createdOn": "2019-01-30",
+  "createdBy": {
+    "@id": "willis8@illinois.edu",
+    "@type": "schema:Person",
+    "schema:givenName": "Craig",
+    "schema:familyName": "Willis",
+    "schema:email": "willis8@illinois.edu"
+  },
+  "schema:name": "Accelerated discovery of subsistence harvest of salmon through low-throughput experiments",
+  "schema:description": "#### Example Tale showing combination of Globus and DataONE datasets",
+  "schema:category": "example",
+  "schema:identifier": "5ad4eb52f4b80b00018d92e1",
+  "schema:version": "4",
+  "schema:image": "http://advances.sciencemag.org/content/advances/4/4/eaaq1566/F1.large.jpg?width=800&height=600&carousel=1",
+  "aggregates": [
+    { 
+      "uri": "../data/workspace/requirements.txt",
+      "xxx": "environment"
+    },
+    { 
+      "uri": "../data/workspace/README.md",
+      "xxx": "narrative"
+    },
+    {
+      "uri": "globus://globuspublish#mdf-publications/published/publication_992/data/data/CoFeZr/1D_spectra/raw_1D/Sample4_24x24_t30_0001_1D.csv",
+      "bundledAs": { 
+         "folder": "../data/data",
+         "filename": "Sample4_24x24_t30_0001_1D.csv"
+      },
+      "parent_dataset": "http://dx.doi.org/doi:10.18126/M2B06M"
+    },
+    {
+      "uri": "https://cn.dataone.org/cn/v2/resolve/urn:uuid:c4711a40-967c-4543-93ad-78c50b3d9792",
+      "bundledAs": { 
+         "folder": "../data/data",
+         "filename": "Glennallen_Harvest.csv"
+      },
+      "parent_dataset": "https://doi.org/10.5063/F11C1V42"
+    }
+  ],
+  "Datasets": [
+    {
+      "@id": "http://dx.doi.org/doi:10.18126/M2B06M", 
+      "@type": "Dataset",
+      "name": "Accelerated Discovery of Metallic Glasses through Iteration of Machine Learning and High-Throughput Experiments",
+      "identifier" : "doi:10.18126/M2B06M",
+      "publisher" :
+        {
+          "@id": "https://www.materialsdatafacility.org/",
+          "@type": "Organization",
+          "legalName": "Materials Data Facility",
+          "Description": "A simple way to publish, discover, and access materials datasets"
+        }
+    },
+    {
+      "@id": "https://doi.org/10.5063/F11C1V42",
+      "@type": "Dataset",
+      "name": "Alaska Department of Fish and Game, Division of Subsistence. 2018. Subsistence Harvest of Salmon from Glennallen Subdistrict, Alaska, 1988-2016.",
+      "identifier" : "doi:10.5063/F11C1V42",
+      "publisher" :
+        {
+          "@id": "https://www.dataone.org/",
+          "@type": "Organization",
+          "legalName": "DataONE",
+          "Description": "A federated data network allowing access to science data"
+        }
+    }
+  ]
+}
