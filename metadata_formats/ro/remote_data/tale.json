@@ -20,105 +20,101 @@
   "identifier": "5c32904db228190001444b12",
   "version": "3",
   "image": "http://yt-project.org/img/analysis.jpg",
-  "describes": {
-    "@id": "Aggregation",
-    "@type": "Aggregation",
-    "aggregates": [
-      {
-        "@id": "https://losc.ligo.org/s/events/BBH_events_v3.json",
-        "@type": "schema:CreativeWork",
-        "bundledAs": {
-          "folder": "data/workspace/",
-          "filename": "BBH_events_v3.json"
-        }
-      },
-      {
-        "@id": "https://losc.ligo.org/s/events/GW150914/GW150914_4_template.hdf5",
-        "@type": "schema:CreativeWork",
-        "bundledAs": {
-          "folder": "data/workspace/",
-          "filename": "GW150914_4_template.hdf5"
-        }
-      },
-      {
-        "@id": "https://losc.ligo.org/s/events/GW150914/H-H1_LOSC_4_V2-1126259446-32.hdf5",
-        "@type": "schema:CreativeWork",
-        "bundledAs": {
-          "folder": "data/workspace/",
-          "filename": "H-H1_LOSC_4_V2-1126259446-32.hdf5"
-        }
-      },
-      {
-        "@id": "https://losc.ligo.org/s/events/LVT151012/H-H1_LOSC_4_V2-1128678884-32.hdf5",
-        "@type": "schema:CreativeWork",
-        "bundledAs": {
-          "folder": "data/workspace/",
-          "filename": "H-H1_LOSC_4_V2-1128678884-32.hdf5"
-        }
-      },
-      {
-        "@id": "https://losc.ligo.org/s/events/GW151226/H-H1_LOSC_4_V2-1135136334-32.hdf5",
-        "@type": "schema:CreativeWork",
-        "bundledAs": {
-          "folder": "data/workspace/",
-          "filename": "H-H1_LOSC_4_V2-1135136334-32.hdf5"
-        }
-      },
-      {
-        "@id": "https://losc.ligo.org/s/events/GW170104/L-L1_LOSC_4_V1-1167559920-32.hdf5",
-        "@type": "schema:CreativeWork",
-        "bundledAs": {
-          "folder": "data/workspace/",
-          "filename": "L-L1_LOSC_4_V1-1167559920-32.hdf5"
-        }
-      },
-      {
-        "@id": "https://losc.ligo.org/s/events/GW150914/L-L1_LOSC_4_V2-1126259446-32.hdf5",
-        "@type": "schema:CreativeWork",
-        "bundledAs": {
-          "folder": "data/workspace/",
-          "filename": "L-L1_LOSC_4_V2-1126259446-32.hdf5"
-        }
-      },
-      {
-        "@id": "https://losc.ligo.org/s/events/LVT151012/L-L1_LOSC_4_V2-1128678884-32.hdf5",
-        "@type": "schema:CreativeWork",
-        "bundledAs": {
-          "folder": "data/workspace/",
-          "filename": "L-L1_LOSC_4_V2-1128678884-32.hdf5"
-        }
-      },
-      {
-        "@id": "https://losc.ligo.org/s/events/GW151226/L-L1_LOSC_4_V2-1135136334-32.hdf5",
-        "@type": "schema:CreativeWork",
-        "bundledAs": {
-          "folder": "data/workspace/",
-          "filename": "L-L1_LOSC_4_V2-1135136334-32.hdf5"
-        }
-      },
-      {
-        "@id": "data/workspace/LOSC_Event_tutorial.ipynb",
-        "@type": "schema:CreativeWork",
-        "schema:name": "LOSC_Event_tutorial.ipynb"
-      },
-      {
-        "@id": "https://losc.ligo.org/s/events/LVT151012/LVT151012_4_template.hdf5",
-        "@type": "schema:CreativeWork",
-        "bundledAs": {
-          "folder": "data/workspace/",
-          "filename": "LVT151012_4_template.hdf5"
-        }
-      },
-      {
-        "@id": "data/workspace/readligo.py",
-        "@type": "schema:CreativeWork",
-        "schema:name": "readligo.py"
-      },
-      {
-        "@id": "data/workspace/docker-environment.tar.gz",
-        "@type": "schema:CreativeWork",
-        "schema:name": "docker-environment.tar.gz"
+  "aggregates": [
+    {
+      "@id": "https://losc.ligo.org/s/events/BBH_events_v3.json",
+      "@type": "schema:CreativeWork",
+      "bundledAs": {
+        "folder": "data/workspace/",
+        "filename": "BBH_events_v3.json"
       }
-    ]
-  }
+    },
+    {
+      "@id": "https://losc.ligo.org/s/events/GW150914/GW150914_4_template.hdf5",
+      "@type": "schema:CreativeWork",
+      "bundledAs": {
+        "folder": "data/workspace/",
+        "filename": "GW150914_4_template.hdf5"
+      }
+    },
+    {
+      "@id": "https://losc.ligo.org/s/events/GW150914/H-H1_LOSC_4_V2-1126259446-32.hdf5",
+      "@type": "schema:CreativeWork",
+      "bundledAs": {
+        "folder": "data/workspace/",
+        "filename": "H-H1_LOSC_4_V2-1126259446-32.hdf5"
+      }
+    },
+    {
+      "@id": "https://losc.ligo.org/s/events/LVT151012/H-H1_LOSC_4_V2-1128678884-32.hdf5",
+      "@type": "schema:CreativeWork",
+      "bundledAs": {
+        "folder": "data/workspace/",
+        "filename": "H-H1_LOSC_4_V2-1128678884-32.hdf5"
+        }
+    },
+    {
+      "@id": "https://losc.ligo.org/s/events/GW151226/H-H1_LOSC_4_V2-1135136334-32.hdf5",
+      "@type": "schema:CreativeWork",
+      "bundledAs": {
+        "folder": "data/workspace/",
+        "filename": "H-H1_LOSC_4_V2-1135136334-32.hdf5"
+      }
+    },
+    {
+      "@id": "https://losc.ligo.org/s/events/GW170104/L-L1_LOSC_4_V1-1167559920-32.hdf5",
+      "@type": "schema:CreativeWork",
+      "bundledAs": {
+        "folder": "data/workspace/",
+        "filename": "L-L1_LOSC_4_V1-1167559920-32.hdf5"
+      }
+    },
+    {
+      "@id": "https://losc.ligo.org/s/events/GW150914/L-L1_LOSC_4_V2-1126259446-32.hdf5",
+      "@type": "schema:CreativeWork",
+      "bundledAs": {
+        "folder": "data/workspace/",
+        "filename": "L-L1_LOSC_4_V2-1126259446-32.hdf5"
+      }
+    },
+    {
+      "@id": "https://losc.ligo.org/s/events/LVT151012/L-L1_LOSC_4_V2-1128678884-32.hdf5",
+      "@type": "schema:CreativeWork",
+      "bundledAs": {
+        "folder": "data/workspace/",
+        "filename": "L-L1_LOSC_4_V2-1128678884-32.hdf5"
+      }
+    },
+    {
+      "@id": "https://losc.ligo.org/s/events/GW151226/L-L1_LOSC_4_V2-1135136334-32.hdf5",
+      "@type": "schema:CreativeWork",
+      "bundledAs": {
+        "folder": "data/workspace/",
+        "filename": "L-L1_LOSC_4_V2-1135136334-32.hdf5"
+      }
+    },
+    {
+      "@id": "data/workspace/LOSC_Event_tutorial.ipynb",
+      "@type": "schema:CreativeWork",
+      "schema:name": "LOSC_Event_tutorial.ipynb"
+    },
+    {
+      "@id": "https://losc.ligo.org/s/events/LVT151012/LVT151012_4_template.hdf5",
+      "@type": "schema:CreativeWork",
+      "bundledAs": {
+        "folder": "data/workspace/",
+        "filename": "LVT151012_4_template.hdf5"
+      }
+    },
+    {
+      "@id": "data/workspace/readligo.py",
+      "@type": "schema:CreativeWork",
+      "schema:name": "readligo.py"
+    },
+    {
+      "@id": "data/workspace/docker-environment.tar.gz",
+      "@type": "schema:CreativeWork",
+      "schema:name": "docker-environment.tar.gz"
+    }
+  ]
 }

@@ -5,7 +5,7 @@
        "schema": "http://schema.org/"
     },
     {
-       "parent_dataset": {"@type": "@id"}
+       "Datasets": {"@type": "@id"}
     }
   ],
   "@id": "https://data.wholetale.org/api/v1/tale/5ad4eb52f4b80b00018d92e1",
@@ -38,7 +38,7 @@
          "folder": "../data/data",
          "filename": "Sample4_24x24_t30_0001_1D.csv"
       },
-      "parent_dataset": "http://dx.doi.org/doi:10.18126/M2B06M"
+      "schema:isPartOf": "http://dx.doi.org/doi:10.18126/M2B06M"
     },
     {
       "uri": "https://cn.dataone.org/cn/v2/resolve/urn:uuid:c4711a40-967c-4543-93ad-78c50b3d9792",
@@ -46,7 +46,7 @@
          "folder": "../data/data",
          "filename": "Glennallen_Harvest.csv"
       },
-      "parent_dataset": "https://doi.org/10.5063/F11C1V42"
+      "schema:isPartOf": "https://doi.org/10.5063/F11C1V42"
     }
   ],
   "Datasets": [
