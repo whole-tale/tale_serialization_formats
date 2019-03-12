@@ -1,8 +1,8 @@
 # Overview
 
-This repository is for the documentation and design about the Tale's export structure and metadata format. There are many different specifications and custom ways to accomplish each; this document focuses on RDF in JSON-LD as the Tale metadata format and BagIt-RO as the export standard. 
+This repository is for the documentation and design about the Tale's export structure and metadata format. There are many different specifications and custom ways to accomplish each; this document focuses on RDF in JSON-LD as the Tale metadata format and [BagIt-RO](https://github.com/ResearchObject/bagit-ro/) as the export standard. 
 
-[metadata_formats](https://github.com/whole-tale/tale_serialization_formats/tree/master/metadata_formats): contains examples of the different metadata formats
+[metadata_formats](https://github.com/whole-tale/tale_serialization_formats/tree/master/metadata_formats): contains examples using both the RO and schema.org metadata formats. The RO examples illustrate difference between locally and externally referenced data.
 
 [export_formats](https://github.com/whole-tale/tale_serialization_formats/tree/master/export_formats): contains examples of Tales exported with different specifications
 
